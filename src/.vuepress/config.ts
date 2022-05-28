@@ -1,6 +1,32 @@
 import { defineUserConfig } from "@vuepress/cli";
 import docsearchPlugin from "@vuepress/plugin-docsearch";
+// import BgMusic from "@vuepress-reco/vuepress-plugin-bgm-player";
 import theme from "./theme";
+
+// var bgm = require("@vuepress-reco/vuepress-plugin-bgm-player");
+// bgm.audios = [
+//     {
+//       name: '장가갈 수 있을까',
+//       artist: '咖啡少年',
+//       url: '/bgm/1.mp3',
+//       cover: '/bgm/1.jpg'
+//     },
+// ];
+
+// module.exports = {
+//   "@vuepress-reco/vuepress-plugin-bgm-player": {
+//     audios: [
+//       {
+//         name: '장가갈 수 있을까',
+//         artist: '咖啡少年',
+//         url: '/bgm/1.mp3',
+//         cover: '/bgm/1.jpg'
+//       },
+//     ]
+//   }
+// }
+
+// export let BgMusic = bgm;
 
 export default defineUserConfig({
   dest: "dist",
@@ -21,13 +47,13 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "Mr.Hope",
-      description: "Where there is light, there is hope.",
+      title: "Love Story",
+      description: "我和我宝的恋爱故事.",
     },
 
     "/en/": {
-      title: "My name is Mr.Hope",
-      description: "Mr.Hope personal blog",
+      title: "Love Story",
+      description: "Love story of me and my lovely baby",
     },
   },
 

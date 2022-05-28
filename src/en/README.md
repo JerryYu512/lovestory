@@ -1,12 +1,13 @@
 ---
 home: true
 layout: Blog
-icon: home
-title: Home
+icon: a-bookmarkshuqian
+title: LoveStory
 heroImage: /logo.svg
-heroText: 𝓜𝓻. 𝓗𝓸𝓹𝓮
-heroFullScreen: true
-tagline: Where there is light, there is hope
+bgImage: /assets/img/bg.jpg
+heroText: 𝓛𝓸𝓿𝓮 𝓢𝓽𝓸𝓻𝔂
+heroFullScreen: false
+tagline: My love story with the most beautiful little baby in my universe
 projects:
   - name: vuepress
     desc: Vue-powered Static Site Generator

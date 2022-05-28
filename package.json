@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "个人博客",
+  "description": "LoveStory",
   "scripts": {
     "build:vite": "vuepress-vite build src",
     "build:vite-debug": "cross-env DEBUG=vuepress* vuepress-vite build src",
@@ -18,13 +18,14 @@
     "lint-md": "markdownlint **/*.md --ignore node_modules --fix",
     "test": "echo \"Warning: no test specified\" && exit 0"
   },
-  "author": "Mr.Hope",
+  "author": "Jerry.Yu",
   "license": "MIT",
   "keywords": [
     "vuepress",
     "personal-blog"
   ],
   "dependencies": {
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
     "@vuepress/cli": "2.0.0-beta.45",
     "@vuepress/client": "2.0.0-beta.45",
     "@vuepress/plugin-docsearch": "2.0.0-beta.45",

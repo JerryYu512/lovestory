@@ -3,63 +3,61 @@ import { navbar } from "vuepress-theme-hope";
 export const zhNavbarConfig = navbar([
   "/",
   {
-    text: "随笔",
-    icon: "note",
-    prefix: "/note/",
+    text: "一起旅游",
+    icon: "a-reqiqiulvyoujingdian",
+    prefix: "/travel/",
     children: [
-      { text: "随笔", link: "", icon: "note", activeMatch: "^/note/$" },
+      {
+        text: "一起旅游",
+        link: "",
+        icon: "a-reqiqiulvyoujingdian",
+        activeMatch: "^/travel/$"
+      },
       {
         text: "诗集: 四季",
         children: ["spring/", "summer/", "fall/", "winter/"],
       },
-      {
-        text: "其他作品",
-        children: ["life/", "poem/"],
-      },
-      "node-js/",
     ],
   },
   {
-    text: "代码笔记",
-    icon: "code",
+    text: "爱的点滴",
+    icon: "a-zhaoxiangjipaizhao",
+    prefix: "/vlogs/",
     children: [
       {
-        text: "代码笔记",
-        icon: "code",
-        link: "/code/",
-        activeMatch: "^/code/$",
-      },
-      {
-        text: "产品设计",
-        children: ["/design/"],
-      },
-      {
-        text: "后端运维",
-        children: ["/linux/"],
-      },
-    ],
-  },
-  {
-    text: "软件教程",
-    icon: "software",
-    prefix: "/software/",
-    children: [
-      {
-        text: "软件教程",
-        icon: "software",
+        text: "爱的点滴",
+        icon: "a-zhaoxiangjipaizhao",
         link: "",
-        activeMatch: "^/software/$",
+        activeMatch: "^/vlogs/$",
       },
-      "vscode/",
-      "git/",
-      "comsol/",
+      {
+        text: "足迹：年轮",
+        children: ["2021/"],
+      },
+    ],
+  },
+  {
+    text: "纪念日",
+    icon: "a-aixinxihuanxiai",
+    prefix: "/anniversary/",
+    children: [
+      {
+        text: "纪念日",
+        link: "",
+        icon: "a-aixinxihuanxiai",
+        activeMatch: "^/anniversary/$",
+      },
+      {
+        text: "时刻：相爱",
+        children: ["2021/"],
+      },
     ],
   },
 ]);
 
 export const enNavbarConfig = navbar([
   "/en/",
-  "/en/note/",
-  "/en/code/",
-  "/en/software/",
+  "/en/travel/",
+  "/en/vlogs/",
+  "/en/anniversary/",
 ]);

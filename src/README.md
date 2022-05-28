@@ -1,12 +1,14 @@
 ---
 home: true
 layout: Blog
-icon: home
-title: 主页
+icon: a-bookmarkshuqian
+title: LoveStory
 heroImage: /logo.svg
-heroText: 𝓜𝓻. 𝓗𝓸𝓹𝓮
-heroFullScreen: true
-tagline: Where there is light, there is hope
+bgImage: /assets/img/bg.jpg
+heroText: 𝓛𝓸𝓿𝓮 𝓢𝓽𝓸𝓻𝔂
+# heroFullScreen: true
+heroFullScreen: false
+tagline: 我和我全宇宙最美的小宝贝的恋爱故事
 projects:
   - name: vuepress
     desc: 基于 Vue 的静态文档构建器
@@ -28,30 +30,31 @@ projects:
     link: https://github.com/Hope-Studio/inNENU-miniapp
     icon: /assets/img/inNENU.png
 
-  - name: vuepress-plugin-md-enhance
-    desc: Vuepress Markdown 增强插件
-    link: https://vuepress-theme-hope.github.io/v2/md-enhance/zh/
-    icon: /assets/img/vuepress-hope-logo.svg
+  # - name: vuepress-plugin-md-enhance
+  #   desc: Vuepress Markdown 增强插件
+  #   link: https://vuepress-theme-hope.github.io/v2/md-enhance/zh/
+  #   icon: /assets/img/vuepress-hope-logo.svg
 
-  - name: vuepress-plugin-feed2
-    desc: VuePress2 Feed 插件
-    link: https://vuepress-theme-hope.github.io/v2/feed/zh/
-    icon: /assets/img/vuepress-hope-logo.svg
+  # - name: vuepress-plugin-feed2
+  #   desc: VuePress2 Feed 插件
+  #   link: https://vuepress-theme-hope.github.io/v2/feed/zh/
+  #   icon: /assets/img/vuepress-hope-logo.svg
 
-  - name: vuepress-plugin-pwa2
-    desc: VuePress2 PWA 插件
-    link: https://vuepress-theme-hope.github.io/v2/pwa/zh/
-    icon: /assets/img/vuepress-hope-logo.svg
+  # - name: vuepress-plugin-pwa2
+  #   desc: VuePress2 PWA 插件
+  #   link: https://vuepress-theme-hope.github.io/v2/pwa/zh/
+  #   icon: /assets/img/vuepress-hope-logo.svg
 
-  - name: "@mr-hope/gulp-sass"
-    icon: project
-    desc: Gulp Sass 插件
-    link: https://github.com/Mister-Hope/gulp-sass
+  # - name: "@mr-hope/gulp-sass"
+  #   icon: project
+  #   desc: Gulp Sass 插件
+  #   link: https://github.com/Mister-Hope/gulp-sass
 
-  - name: mptool
-    desc: 轻量、高效的微信小程序框架
-    link: https://github.com/miniapp-tool/mptool
-    icon: https://miniapp-tool.github.io/logo.png
+  # - name: mptool
+  #   desc: 轻量、高效的微信小程序框架
+  #   link: https://github.com/miniapp-tool/mptool
+  #   icon: https://miniapp-tool.github.io/logo.png
 
-footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">备案号: 辽ICP备18007023号</a> | <a href="/about/site.html">关于网站</a>'
+# footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">备案号: 辽ICP备18007023号</a> | <a href="/about/site.html">关于网站</a>'
+footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">备案号: 辽ICP备18007023号</a>'
 ---
