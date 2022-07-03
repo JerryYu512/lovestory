@@ -30,15 +30,19 @@
     "@vuepress/client": "2.0.0-beta.45",
     "@vuepress/plugin-docsearch": "2.0.0-beta.45",
     "sass-loader": "^12.6.0",
+    "stylus": "^0.58.1",
     "vue": "3.2.35",
     "vuepress-theme-hope": "2.0.0-beta.70",
     "vuepress-vite": "2.0.0-beta.45",
-    "vuepress-webpack": "2.0.0-beta.45"
+    "vuepress-webpack": "2.0.0-beta.45",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "cross-env": "7.0.3",
     "markdownlint-cli": "0.31.1",
-    "prettier": "2.6.2"
+    "prettier": "2.6.2",
+    "v-dialogs": "^2.1.4",
+    "vue-router": "^4.0.16"
   },
   "pnpm": {
     "peerDependencyRules": {
